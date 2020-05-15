@@ -10,10 +10,39 @@ body {
   display: grid;
   grid-template-columns: 15% 70% 15%;
 }
+.header__icon {
+  width: 70%;
+  height: 70%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+}
+.header__icon:hover {
+  background-color: #e8f5fe;
+}
 .header__icon i {
-  padding: 15px 10px;
   color: #1da1f2;
   font-size: 24px;
+}
+.header__menu {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 30px;
+  justify-self: center;
+}
+.header__menu:hover {
+  background-color: #e8f5fe;
+}
+.header__menu i {
+  color: #1da1f2;
+  font-size: 32px;
 }
 .header__search {
   width: 100%;
