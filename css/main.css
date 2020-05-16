@@ -136,3 +136,38 @@ body {
   font-weight: 900;
   opacity: 0.6;
 }
+.trends {
+  margin-top: 30px;
+}
+.trends__principal {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.trends__principal--img {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+.trends__principal--container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7));
+}
+.trends__principal--span {
+  color: #fff;
+  position: absolute;
+  bottom: 80px;
+  padding: 0 20px;
+}
+.trends__principal--title {
+  padding: 0 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  font-weight: 900;
+}
+.trends__today {
+  margin-top: 20px;
+}
