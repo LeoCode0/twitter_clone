@@ -247,3 +247,15 @@ a {
   font-weight: 900;
   font-size: 14px;
 }
+@media screen and (min-width: 767px) {
+  .header {
+    max-width: 600px;
+    margin: 10px auto 0 auto;
+  }
+  .header__search {
+    position: relative;
+  }
+  .header__search i {
+    left: 4%;
+  }
+}
