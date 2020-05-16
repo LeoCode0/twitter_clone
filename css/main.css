@@ -5,7 +5,6 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
 }
 h1,
 h3 {
@@ -197,4 +196,7 @@ h3 {
   background-color: #fff;
   padding: 10px 14px 0 14px;
   height: 100%;
+}
+.container i {
+  opacity: 0.4;
 }
