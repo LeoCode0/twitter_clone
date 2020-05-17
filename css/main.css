@@ -262,4 +262,17 @@ a {
     overflow-x: hidden;
     font-weight: 800;
   }
+  .container__trends {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: 1px solid #000;
+  }
+  .trends {
+    width: 600px;
+    margin-top: 0;
+  }
+  body {
+    overflow-x: hidden;
+  }
 }
