@@ -1,0 +1,26 @@
+.nav
+    display: none
+
+.explore
+    position: relative
+    width: 600px
+    height 106px
+    display: grid
+    grid-template-rows: 50% 50%
+    margin: 20px 20px 0 40px
+    &__titles
+        display: flex
+        justify-content: space-between
+        &--title
+            font-size: 18px
+            font-weight: 900
+        & i
+            color: color-principal
+            font-size: 26px
+            width: 30px
+            height 30px
+    &__navbar
+        mixinNavbar()
+
+.nav__forYou, .nav__trends, .nav__news, .nav__sports, .nav__entertainment, .nav__fun
+    mixinBoxNavbar(15px, 100%)
