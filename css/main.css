@@ -280,3 +280,74 @@ a {
     overflow-x: hidden;
   }
 }
+@media screen and (min-width: 1023px) {
+  .header {
+    max-width: 1024px;
+    height: 30px;
+    grid-template-columns: 10% 50% 50%;
+  }
+  .header__icon i {
+    font-size: 30px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .headerLarge {
+    width: 100%;
+    height: inherit;
+    height: 53%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .headerLarge__container {
+    height: 53%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .headerLarge__container--login {
+    height: 53%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 30%;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    font-weight: 900;
+    font-size: 14px;
+  }
+  .headerLarge__container--register {
+    height: 53%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 30%;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: #1da1f2;
+    margin-left: 10px;
+  }
+}
