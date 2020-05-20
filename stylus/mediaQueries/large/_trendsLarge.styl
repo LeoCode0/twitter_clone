@@ -5,3 +5,59 @@
     grid-template-columns: 50% 50%
     border-top: none
     margin-left: 20px
+
+.form
+    width: 33%
+    height 100%
+    position: fixed
+    right: 30px
+    top: 88px
+    border: 1px solid black
+    border-radius: 12px
+    &__description
+        width: 100%
+        border: 1px solid black
+        display: flex
+        justify-content: center
+        flex-direction: column
+        &--image
+            border: 1px solid black
+            margin: 0 auto
+            img
+                width: 226px
+                height: 226px
+        &--span
+            font-size: 18px       
+            font-weight: 800
+    &__login
+        display: flex
+        flex-direction: column
+        padding: 10px
+        &--label
+            background-color: rgb(245, 248, 250)
+            font-size: 14px
+            padding: 10px
+            margin-top: 20px
+            opacity 0.7
+        &--user, &--password
+            height 25px
+            outline: none
+            font-size: 18px
+            background-color: rgb(245, 248, 250)
+            padding-left: 10px
+            border: 0
+            border-bottom: 1px solid black
+        &--forgotPassword
+            font-size: 14px
+            color: color-principal
+            margin: 8px 0
+        &--button
+            mixinButtonsStyles(color-principal, width: 90%, height: 40px)
+            background-color: white
+        &--register
+            mixinButtonsStyles(white, width: 90%, height: 40px)
+            background-color: color-principal
+        span 
+            margin: 10px 0
+            text-align: center
+            
