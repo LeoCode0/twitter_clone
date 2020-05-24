@@ -4,16 +4,18 @@
 .explore
     position: relative
     width: 600px
-    height 106px
+    height 70px
     display: grid
+    top: 60px
+    margin: 0 20px 70px 20px
     grid-template-rows: 50% 50%
-    margin: 20px 20px 0 40px
     &__titles
         display: flex
         justify-content: space-between
         &--title
             font-size: 18px
             font-weight: 900
+            padding-left: 10px
         & i
             color: color-principal
             font-size: 26px
@@ -23,4 +25,4 @@
         mixinNavbar()
 
 .nav__forYou, .nav__trends, .nav__news, .nav__sports, .nav__entertainment, .nav__fun
-    mixinBoxNavbar(15px, 100%)
+    mixinBoxNavbar(15px)
