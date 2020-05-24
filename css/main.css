@@ -30,9 +30,6 @@ input {
   margin-bottom: 50px;
 }
 .header {
-  position: relative;
-}
-.header {
   height: 50px;
   width: 100%;
   display: grid;
@@ -281,12 +278,13 @@ input {
   .nav {
     overflow-x: hidden;
     font-weight: 800;
+    justify-content: center;
   }
   .container__trends {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    border-top: 1px solid #000;
+    margin-top: 4px;
+    border-top: 2px solid #f5f8fa;
   }
   .trends {
     width: 600px;
