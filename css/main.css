@@ -412,22 +412,20 @@ input {
   }
   .form {
     width: 33%;
-    height: 100%;
+    height: auto;
     position: fixed;
     right: 30px;
-    top: 88px;
-    border: 1px solid #000;
+    top: 76px;
+    border: 2px solid #f5f8fa;
     border-radius: 12px;
   }
   .form__description {
     width: 100%;
-    border: 1px solid #000;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
   .form__description--image {
-    border: 1px solid #000;
     margin: 0 auto;
   }
   .form__description--image img {
@@ -504,5 +502,21 @@ input {
   .form__login span {
     margin: 10px 0;
     text-align: center;
+  }
+  .footer--large {
+    display: flex;
+    width: 290px;
+    position: fixed;
+    bottom: 30px;
+    right: 65px;
+    z-index: 100;
+    font-size: 13px;
+    opacity: 0.7;
+  }
+  .footer--large__links a {
+    padding: 10px;
+  }
+  .footer--large__links a:hover {
+    text-decoration: underline;
   }
 }
