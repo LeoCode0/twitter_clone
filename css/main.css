@@ -20,12 +20,24 @@ input {
   margin: 0;
   padding: 0;
 }
+.headerLarge,
+.explore,
+.form,
+.footer--large {
+  display: none;
+}
+.trends {
+  margin-bottom: 50px;
+}
 .header {
-  height: 60px;
+  position: relative;
+}
+.header {
+  height: 50px;
   width: 100%;
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 .header__icon {
   width: 70%;
@@ -85,6 +97,10 @@ input {
 .nav {
   width: 100vw;
   height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
   display: grid;
   grid-template-columns: repeat(5, 90px) 130px;
   overflow: scroll;
@@ -150,7 +166,6 @@ input {
   opacity: 0.6;
 }
 .trends {
-  margin-top: 30px;
   background-color: #e6ecf0;
 }
 .trends__principal {
