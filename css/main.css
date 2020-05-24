@@ -308,7 +308,7 @@ input {
     position: fixed;
     grid-template-columns: 10% 50% 50%;
     margin: 0;
-    border-bottom: 2px solid #f5f8fa;
+    border-bottom: 1px solid #f5f8fa;
     background-color: #fff;
     z-index: 3;
   }
@@ -433,7 +433,7 @@ input {
     margin-left: 20px;
   }
   .form {
-    width: 33%;
+    width: 348px;
     height: auto;
     position: fixed;
     display: inline;
@@ -541,5 +541,30 @@ input {
   }
   .footer--large__links a:hover {
     text-decoration: underline;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .containerXl {
+    width: 100vw;
+    height: 57px;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 2px solid #f5f8fa;
+    z-index: 3;
+  }
+  .header {
+    margin: 0 16%;
+    border-bottom: 0;
+  }
+  .containerXl-principal {
+    width: 100vw;
+    position: absolute;
+    padding: 0 16%;
+  }
+  .form {
+    right: 12%;
+  }
+  .footer--large {
+    right: 16%;
   }
 }
